@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Tod Kemper's CV"
+author: Tod Kemper
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -63,11 +63,10 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> tod.kemper@gmail.com
+- <i class="fa fa-twitter"></i> TodKemper
+- <i class="fa fa-github"></i> github.com/TVK36692
+- <i class="fa fa-phone"></i> (502) 400-3181
 
 
 
@@ -108,7 +107,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Tod Kemper {#title}
 --------------------------------------------------------------------------------
 
 
@@ -132,11 +131,11 @@ print_section(position_data, 'education')
 
 
 
-Research Experience {data-icon=laptop}
+Certifications {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'research_positions')
+print_section(position_data, 'certifications')
 ```
 
 
@@ -153,10 +152,9 @@ print_section(position_data, 'industry_positions')
 ```
 
 <br>
-<br>
-<br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
+
+Skills {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -164,49 +162,9 @@ I am passionate about education. I believe that no topic is too complex if the t
 :::
 
 ```{r}
-print_section(position_data, 'teaching_positions')
+print_section(position_data, 'skills')
 ```
 
-
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-
-::: aside
-I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
-:::
-
-```{r}
-print_section(position_data, 'data_science_writings')
-```
-
-
-
-Selected Press (About)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'about_me_press')
-```
-
-
-
-Selected Press (By)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'by_me_press')
-```
-
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'academic_articles')
-```
 
 
 
